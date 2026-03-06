@@ -83,6 +83,7 @@ h3 {
 p {
   font-size: 1em;
   font-family: "Roboto", sans-serif;
+  margin: 0.2em;
 }
 
 #job-wrapper {
@@ -103,10 +104,31 @@ p {
 #job-wrapper #company {
   float: left;
   font-size: 1.1em;
-  font-weight: 1em;
 }
 
 #job-wrapper p {
   clear: left;
   clear: right;
+}
+
+#swimimg {
+  float: left;
+  margin-right: 1em;
+  width: 15em;
+}
+
+#studentimg {
+  float:left;
+  margin-right: 1em;
+  width: 15em;
+}
+
+#wtfimg {
+  float:right;
+  width: 20em;
+}
+
+#tkdvideo {
+  max-width: 100%;
+  height: auto;
 }
