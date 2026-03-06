@@ -114,28 +114,28 @@ p, li {
   color: rgb(255, 255, 255);
 }
 
-#job-wrapper {
+.job-wrapper {
   margin: 0.5em;
   border-color: black;
 }
 
-#job-wrapper h3 {
+.job-wrapper h3 {
   margin-bottom: 0.5em;
   margin-top: 1em;
   text-align: center;
 }
 
-#job-wrapper #date {
+.job-wrapper #date {
   float: right;
   font-size: 1.1em;
 }
 
-#job-wrapper #company {
+.job-wrapper #company {
   float: left;
   font-size: 1.1em;
 }
 
-#job-wrapper p {
+.job-wrapper p {
   clear: left;
   clear: right;
 }
