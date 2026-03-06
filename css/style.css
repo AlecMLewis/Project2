@@ -64,11 +64,15 @@ background: linear-gradient(135deg,  rgb(164,116,242) 0%,rgb(147,211,234) 69%); 
 h1 {
   font-size: 2em;
   font-family: "Science Gothic", sans-serif;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 h2 {
   font-size: 1.5em;
   font-family: "Science Gothic", sans-serif;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 h3 {
@@ -79,4 +83,30 @@ h3 {
 p {
   font-size: 1em;
   font-family: "Roboto", sans-serif;
+}
+
+#job-wrapper {
+  margin: 0.5em;
+  border-color: black;
+}
+
+#job-wrapper h3 {
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+}
+
+#job-wrapper #date {
+  float: right;
+  font-size: 1.1em;
+}
+
+#job-wrapper #company {
+  float: left;
+  font-size: 1.1em;
+  font-weight: 1em;
+}
+
+#job-wrapper p {
+  clear: left;
+  clear: right;
 }
